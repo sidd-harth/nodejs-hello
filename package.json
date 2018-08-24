@@ -4,13 +4,8 @@
   "description": "Node.js on Docker",
   "author": "Veer Muchandi<veer@redhat.com>",
   "main": "server.js",
-  "scripts": {
-    "start": "./node_modules/nodemon/bin/nodemon.js --debug=5858  server.js "
-  },
   "dependencies": {
-    "cors": "^2.8.1",
-    "express": "^4.13.3",
-    "mysql": "^2.11.1",
-    "nodemon": "^1.11.0"
+    "os": "",
+    "express": "^4.13.3"
   }
 }

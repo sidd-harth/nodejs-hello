@@ -6,6 +6,8 @@ const app = express();
 
 app.get('/', function (req, res) {
   res.send('Welcome to OpenShift!! My HostName is: ' + os.hostname() + '\n');
+  console.log('HOSTNAME is' + os.hostname());
+
 });
 
 console.log('HOSTNAME is' + os.hostname());

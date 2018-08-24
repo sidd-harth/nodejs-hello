@@ -1,7 +1,7 @@
 var express = require('express');
 var os = require("os");
-var cors = require('cors');
-const PORT = 8080;
+//var cors = require('cors');
+const PORT = 9856;
 const app = express();
 
 app.get('/', function (req, res) {
@@ -10,10 +10,3 @@ app.get('/', function (req, res) {
 
 app.listen(PORT,'0.0.0.0');
 console.log('Running on http://localhost:' + PORT);
-
-
-process.on('SIGTERM', function () {
-    console.log('Cleanup.....');
-    process.exit();
-});
-

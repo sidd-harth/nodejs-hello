@@ -6,6 +6,7 @@
   "main": "server.js",
   "dependencies": {
     "os": "",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "request": "^2.83.0"
   }
 }
